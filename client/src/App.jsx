@@ -12,7 +12,7 @@ function App() {
 
       <div className="nav-buttons">
         <button onClick={() => setView("signup")}>Signup</button>
-        <button onClick={() => setView("login")} style={{ marginLeft: "1rem" }}>
+        <button onClick={() => setView("login")} style={{ marginLeft: "1rem", marginBottom: "1rem" }}>
           Login
         </button>
       </div>

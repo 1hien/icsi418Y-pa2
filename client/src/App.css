@@ -1,12 +1,12 @@
 .counter {
   font-size: 16px;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 6px;
   color: var(--accent);
   background: var(--accent-bg);
   border: 2px solid transparent;
   transition: border-color 0.3s;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
 
   &:hover {
     border-color: var(--accent-border);
@@ -181,4 +181,11 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  place-content: center;
+  align-items: center;
 }
